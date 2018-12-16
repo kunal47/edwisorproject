@@ -1,0 +1,180 @@
+/* Set height of body and the document to 100% to enable "full page tabs" */
+body, html {
+  height: 100%;
+  margin: 0;
+  font-family: Arial;
+}
+
+
+/* Style tab links */
+.tablink {
+  background-color: #555;
+  color: white;
+  float: left;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 16px;
+  font-size: 17px;
+  width: 25%;
+}
+
+.tablink:hover {
+  background-color: #777;
+}
+
+/* Style the tab content (and add height:100% for full page content) */
+.tabcontent {
+  color: white;
+  display: none;
+  padding: 100px 20px;
+  height: 100%;
+}
+
+#AboutMe {background-color: red;}
+#Technologies {background-color: green;}
+#WorkExperiences {background-color: blue;}
+#Project {background-color: yellow;}
+
+#Intro {
+  color: Orange;
+  text-align: center;
+  padding-bottom: 10px;
+}
+
+.Myself {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+
+
+.Introduction {
+  color: orange;
+  width: 50%;
+
+}
+
+h2 {
+  color: orange;
+  text-align: center;
+}
+
+
+img {
+  border-radius: 50%;
+  max-width: 100%;
+    height: auto;
+}
+
+.Photo {
+  width: 50%;
+  
+}
+
+#Hobbies {
+  padding-top: 40px;
+}
+
+#Myself {
+  text-align: left;
+}
+
+#IKnow {
+  padding-top: 50px;
+}
+
+#myPhoto:hover {
+  -webkit-transform: scaleX(-1);
+  transform: scaleX(-1);
+}
+
+#From {
+  color: Orange;
+  text-align: left;
+}
+
+.row {
+  display: flex;
+}
+
+.column {
+  flex: 33.33%;
+  padding: 5px;
+}
+
+
+#YetToLearn {
+  color: Orange;
+  text-align: center;
+  padding-top: 20px;
+}
+
+#Work {
+  color: Orange;
+  text-align: center;
+  padding-top: 50px;
+}
+
+#Work1 {
+  color: Orange;
+  text-align: left;
+}
+
+#Skills {
+  color: Orange;
+  text-align: left;
+  padding-top: 20px;
+}
+
+
+#MySkills {
+  color: Orange;
+    
+}
+
+#MyProject {
+  color: Orange;
+  text-align: center;
+  padding-top: 50px;
+
+}
+
+#Website {
+  color: Orange;
+  text-align: left;
+}
+
+#sections {
+  color: Orange;
+}
+
+
+
+@media screen and (max-width: 657px) {
+.tablink {
+  background-color: #eee;
+  color: #444;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  text-align: left;
+  border: none;
+  outline: none;
+  transition: 0.4s;
+}
+
+
+.active, .tablink:hover {
+  background-color: #ccc;
+}
+
+
+.tabcontent {
+  padding: 0 18px;
+  background-color: white;
+  display: none;
+  overflow: hidden;
+}
+}

@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+    <title>My Portfolio</title>
+    <!--Stylesheets-->
+    <link rel="stylesheet" href="css.css">
+    <!--Fonts-->
+    <link href="https://fonts.googleapis.com/css?family=Playfair+Display:400,700" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Istok+Web:400,700" rel="stylesheet">
+    <script src="js.js"></script>
+</head>
+
+<body onload="document.getElementById('defaultOpen').click();">
+    <button class="tablink" onclick="openPage('AboutMe', this, 'red')"id="defaultOpen">About Me</button>
+<button class="tablink" onclick="openPage('Technologies', this, 'green')">Technologies</button>
+<button class="tablink" onclick="openPage('WorkExperiences', this, 'blue')">Work Experience</button>
+<button class="tablink" onclick="openPage('Project', this, 'yellow')">Project</button>
+
+<div id="AboutMe" class="tabcontent">
+  <div class = "Myself">
+            <div class = "Introduction">
+                <h1 id="Intro">About Me</h1>
+                <h2 id="self">Hello, My name is Kunal Bhaskar</h2>
+                <h3 id="From">I am from Muzaffarpur, Bihar. I have done my schooling from my hometown.<br>Then, for my Graduation I moved to Bhopal, Madhya Pradesh. I have done my Graduation from LNCT, Bhopal.</h3>
+                <h2 id="Hobbies">My Hobbies</h2>
+                <ul>
+                    <li>Playing cricket</li>
+                    <li>Sleeping</li>
+                    <li>Coding</li>
+                </ul>
+            </div>
+            <div class="Photo">
+                <img id = "myPhoto" src="Facebook.jpg">
+
+            </div>
+        </div>
+</div>
+
+<div id="Technologies" class="tabcontent">
+ <h2 id="IKnow">Technologies I Know</h2>
+            <div class="TechnologiesIKnow">
+
+                <div class="row">
+                   <div class="column">
+                       <img src="C.jpg" alt="C" style="width:100%">
+                   </div>
+                   <div class="column">
+                       <img src="Java.png" alt="Java" style="width:100%">
+                   </div>
+                   <div class="column">
+                       <img src="Javascript.png" alt="JS" style="width:100%">
+                   </div>
+                </div>
+                </div>
+             
+             <h2 id = "YetToLearn">Technologies To Learn in Future</h2>
+             <div class="TechnologiesToLearn">
+
+             	<div class="row">
+                   <div class="column">
+                       <img src="Python.jpg" alt="Python" style="width:100%">
+                   </div>
+                   <div class="column">
+                       <img src="DL.jpg" alt="Deep Learning" style="width:100%">
+                   </div>
+                   <div class="column">
+                       <img src="android.png" alt="Android" style="width:100%">
+                   </div>
+                </div>
+                </div>
+             	
+             </div>
+</div>
+
+<div id="WorkExperiences" class="tabcontent">
+  <div class="WorkExperience">
+            <h2 id="Work">
+                My Work Experience
+            </h2>
+            <h3 id = "Work1">I have started my work life with one of the top most MNCs. Currently working as a Software Test Engineer<br>
+                             My Responsibility is to plan, create and execute test cases using automation tool like Selenium.
+                     </h3>
+
+            <h3 id="Skills">Skills I have</h3>
+            <ul id = "MySkills">
+                <li>Functional testing</li>
+                <li>Automation testing</li>
+                <li>API testing</li>
+                <li>Performance testing</li>
+            </ul>
+        </div> 
+</div>
+
+<div id="Project" class="tabcontent">
+  
+            <h2 id = "MyProject">
+                My Web Related Project
+            </h2>
+
+           <h3 id="Website">Currently, I am working on my Portfolio Website which will consist of following sections:</h3>
+           <ol id="sections">
+              <li>About</li>
+              <li>Technologies</li>
+              <li>Professional Experience</li>
+              <li>Project</li>
+
+        </div>
+</body>
+
+</html>
